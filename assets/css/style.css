@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    text-align: center;
 }
 
 
@@ -20,4 +26,22 @@ body{
 
 .navbar {
     z-index: 1;
+}
+
+.card img{
+    height: 233px;
+}
+
+footer .container{
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.footer-iconos{
+    color: black;
+    filter: invert(100%);
+}
+
+.footer-iconos i{
+    margin-left: 10px;
 }
