@@ -92,10 +92,10 @@
 
     <!-- HERO SECTION -->
     <section class="section-hero">
-        <!-- Carousel de imágenes -->
+      <!-- Carousel de imágenes -->
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
-            <!-- Primera imagen  -->
+          <!-- Primera imagen  -->
           <div class="carousel-item active">
             <img
               src="./assets/img/carousel1.jpg"
@@ -103,7 +103,7 @@
               alt="zona norte"
             />
           </div>
-           <!-- Segunda imagen -->
+          <!-- Segunda imagen -->
           <div class="carousel-item">
             <img
               src="./assets/img/carousel2.jpg"
@@ -297,19 +297,56 @@
               rows="5"
             ></textarea>
           </div>
+          <!-- Boton Modal -->
           <button
             type="button"
             class="btn btn-lg btn-info text-light"
-            data-bs-toggle="popover"
-            data-bs-title="No olvides enviar"
-            data-bs-content="Estaremos en contacto lo antes posible"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
           >
             Enviar
           </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-dark" id="exampleModalLabel">
+                    Mensaje Enviado
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body text-dark">
+                  ¡Gracias por enviar tu mensaje"
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </form>
       </article>
     </section>
-    
+
     <!-- FOOTER  -->
     <footer class="bg-info pt-4">
       <div class="container">
