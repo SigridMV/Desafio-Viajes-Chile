@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desafio Viaje Chile</title>
+    <meta name="author" content="Sigrid Müller" />
+    <meta
+      name="description"
+      content="Desafío para cumplir los requisitos del curso Fullstack JavaScript de Desafío Latam."
+    />
 
     <!--GOOGLE FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -37,6 +42,7 @@
     <!--BARRA DE NAVEGACION-->
     <nav class="navbar fixed-top navbar-expand-lg" data-bs-theme="dark">
       <div class="container-fluid">
+        <!-- Logo -->
         <a class="navbar-brand text-light mx-5" href="#inicio">
           <img
             src="./assets/img/viajes.svg"
@@ -47,6 +53,7 @@
           />
           ViajesChile
         </a>
+        <!-- Botón de hamburguesa -->
         <button
           class="navbar-toggler"
           type="button"
@@ -58,6 +65,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- Menú de navegación -->
         <div class="collapse navbar-collapse mx-5" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-5">
             <li class="nav-item">
@@ -84,8 +92,10 @@
 
     <!-- HERO SECTION -->
     <section class="section-hero">
+        <!-- Carousel de imágenes -->
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
+            <!-- Primera imagen  -->
           <div class="carousel-item active">
             <img
               src="./assets/img/carousel1.jpg"
@@ -93,6 +103,7 @@
               alt="zona norte"
             />
           </div>
+           <!-- Segunda imagen -->
           <div class="carousel-item">
             <img
               src="./assets/img/carousel2.jpg"
@@ -100,6 +111,7 @@
               alt="isla de pascua"
             />
           </div>
+          <!-- Tercera imagen  -->
           <div class="carousel-item">
             <img
               src="./assets/img/carousel3.jpg"
@@ -129,57 +141,62 @@
       </div>
     </section>
 
+    <!-- Contenido  -->
     <section class="contenido text-light">
-      <article id="quienes">
-        <h3 class="pt-5 p-2">¿Quiénes somos?</h3>
-        <hr class="mx-5 px-5" />
-        <div class="container text-center mt-5">
-          <div class="row align-items-start">
-            <div class="col">
-              <div class="bg-info">
-                <i class="fa-solid fa-plane"></i>
+      <div class="d-none d-md-block">
+        <!-- quienes somos  -->
+        <article id="quienes">
+          <h3 class="pt-5 p-2">¿Quiénes somos?</h3>
+          <hr class="mx-5 px-5" />
+          <div class="container text-center mt-5">
+            <div class="row align-items-start">
+              <div class="col">
+                <div class="bg-info">
+                  <i class="fa-solid fa-plane"></i>
+                </div>
+                <p class="text-start">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptates, totam. Iusto explicabo, a magni quibusdam
+                  veritatis blanditiis aliquam cupiditate eum sunt adipisci
+                  harum, accusantium doloremque. Unde repellendus deserunt,
+                  nobis quidem ex fugiat libero optio officia maiores,
+                  architecto soluta alias quibusdam, totam est? Impedit, quidem.
+                  Tenetur quia autem saepe, quidem quam.
+                </p>
               </div>
-              <p class="text-start">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptates, totam. Iusto explicabo, a magni quibusdam veritatis
-                blanditiis aliquam cupiditate eum sunt adipisci harum,
-                accusantium doloremque. Unde repellendus deserunt, nobis quidem
-                ex fugiat libero optio officia maiores, architecto soluta alias
-                quibusdam, totam est? Impedit, quidem. Tenetur quia autem saepe,
-                quidem quam.
-              </p>
-            </div>
-            <div class="col">
-              <p class="text-start">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptates, totam. Iusto explicabo, a magni quibusdam veritatis
-                blanditiis aliquam cupiditate eum sunt adipisci harum,
-                accusantium doloremque. Unde repellendus deserunt, nobis quidem
-                ex fugiat libero optio officia maiores, architecto soluta alias
-                quibusdam, totam est? Impedit, quidem. Tenetur quia autem saepe,
-                quidem quam.
-              </p>
-              <div class="bg-info">
-                <i class="fa-solid fa-mountain"></i>
+              <div class="col">
+                <p class="text-start">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptates, totam. Iusto explicabo, a magni quibusdam
+                  veritatis blanditiis aliquam cupiditate eum sunt adipisci
+                  harum, accusantium doloremque. Unde repellendus deserunt,
+                  nobis quidem ex fugiat libero optio officia maiores,
+                  architecto soluta alias quibusdam, totam est? Impedit, quidem.
+                  Tenetur quia autem saepe, quidem quam.
+                </p>
+                <div class="bg-info">
+                  <i class="fa-solid fa-mountain"></i>
+                </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="bg-info">
-                <i class="fa-solid fa-route"></i>
+              <div class="col">
+                <div class="bg-info">
+                  <i class="fa-solid fa-route"></i>
+                </div>
+                <p class="text-start">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptates, totam. Iusto explicabo, a magni quibusdam
+                  veritatis blanditiis aliquam cupiditate eum sunt adipisci
+                  harum, accusantium doloremque. Unde repellendus deserunt,
+                  nobis quidem ex fugiat libero optio officia maiores,
+                  architecto soluta alias quibusdam, totam est? Impedit, quidem.
+                  Tenetur quia autem saepe, quidem quam.
+                </p>
               </div>
-              <p class="text-start">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptates, totam. Iusto explicabo, a magni quibusdam veritatis
-                blanditiis aliquam cupiditate eum sunt adipisci harum,
-                accusantium doloremque. Unde repellendus deserunt, nobis quidem
-                ex fugiat libero optio officia maiores, architecto soluta alias
-                quibusdam, totam est? Impedit, quidem. Tenetur quia autem saepe,
-                quidem quam.
-              </p>
             </div>
           </div>
-        </div>
-      </article>
+        </article>
+      </div>
+      <!-- Destacados  -->
       <article id="destacados">
         <h3 class="pt-5">Destacados</h3>
         <hr />
@@ -247,9 +264,11 @@
           </div>
         </div>
       </article>
+      <!-- Contacto -->
       <article id="contacto">
         <h3 class="pt-5">Contacto</h3>
         <hr />
+        <!-- Formulario  -->
         <form class="text-start mx-5 m-5">
           <div class="mb-3">
             <label for="exampleInputName" class="form-label">Nombre</label>
@@ -278,11 +297,20 @@
               rows="5"
             ></textarea>
           </div>
-          <button type="submit" class="btn btn-info text-light">Enviar</button>
+          <button
+            type="button"
+            class="btn btn-lg btn-info text-light"
+            data-bs-toggle="popover"
+            data-bs-title="No olvides enviar"
+            data-bs-content="Estaremos en contacto lo antes posible"
+          >
+            Enviar
+          </button>
         </form>
       </article>
     </section>
-
+    
+    <!-- FOOTER  -->
     <footer class="bg-info pt-4">
       <div class="container">
         <div class="footer-text">
@@ -297,8 +325,6 @@
       </div>
     </footer>
 
-    <script src="./assets/js/script.js"></script>
-
     <!--POPPER BOOTSTRAP-->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -310,5 +336,7 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

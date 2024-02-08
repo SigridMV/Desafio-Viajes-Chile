@@ -14,23 +14,30 @@ body{
     text-align: center;
 }
 
+/*------ NAVBAR-----*/
 
 .navbar {
     background-color: transparent !important;
-}
-
-.carousel {
-    position: relative;
-    z-index: 0;
 }
 
 .navbar {
     z-index: 1;
 }
 
+/*----CAROUSEL---*/
+
+.carousel {
+    position: relative;
+    z-index: 0;
+}
+
+/*----CARD---*/
+
 .card img{
     height: 233px;
 }
+
+/*---- FOOTER----*/
 
 footer .container{
  display: flex;
