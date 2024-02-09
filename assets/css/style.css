@@ -44,13 +44,9 @@ footer .container {
   justify-content: space-evenly;
 }
 
-.footer-iconos {
+.footer-iconos a {
   color: black;
   filter: invert(100%);
-}
-
-.footer-iconos i {
-  margin-left: 10px;
 }
 
 .footer-iconos{
