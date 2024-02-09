@@ -52,3 +52,9 @@ footer .container {
 .footer-iconos i {
   margin-left: 10px;
 }
+
+.footer-iconos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
