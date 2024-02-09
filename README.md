@@ -1,8 +1,8 @@
-#¡Bienvenido al Desafío Viaje Chile! 
+# ¡Bienvenido al Desafío Viaje Chile! 
 
 Este es un proyecto realizado como parte de los requisitos para el curso de Fullstack JavaScript Trainee de Desafío Latam.
 
-##Requerimientos:
+## Requerimientos:
 -**🏗️ HTML**: Estructura sólida y organizada.
 -**🎨 CSS**: Estilo según ejemplo.
 -**🅱️ Bootstrap**: Integración y uso de componentes.
@@ -11,7 +11,7 @@ Este es un proyecto realizado como parte de los requisitos para el curso de Full
 
 Vista en: https://sigridmv.github.io/Desafio-Viajes-Chile/
 
-##Créditos
+## Créditos
 Agradecimientos a la comunidad de Desafío Latam por la oportunidad de aprender y crear este proyecto.
 
 ¡Gracias por revisar Viaje Chile! 
