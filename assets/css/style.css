@@ -1,54 +1,54 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
-    background-color: black;
-    text-align: center;
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+  text-align: center;
 }
 
 /*------ NAVBAR-----*/
 
 .navbar {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .navbar {
-    z-index: 1;
+  z-index: 1;
 }
 
 /*----CAROUSEL---*/
 
 .carousel {
-    position: relative;
-    z-index: 0;
+  position: relative;
+  z-index: 0;
 }
 
 /*----CARD---*/
 
-.card img{
-    height: 233px;
+.card img {
+  height: 233px;
 }
 
 /*---- FOOTER----*/
 
-footer .container{
- display: flex;
- justify-content: space-evenly;
+footer .container {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.footer-iconos{
-    color: black;
-    filter: invert(100%);
+.footer-iconos {
+  color: black;
+  filter: invert(100%);
 }
 
-.footer-iconos i{
-    margin-left: 10px;
+.footer-iconos i {
+  margin-left: 10px;
 }
